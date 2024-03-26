@@ -1,0 +1,290 @@
+
+    body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.keyboard-base {
+    max-width: 1085px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(197, 197, 197);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(30, 30px);
+    grid-template-rows: repeat(5, 60px);
+    grid-gap: 5px;
+}
+
+
+#key1  , #keycomma,#key2 , #key3 , #key4 ,#key4 , #key5 , #key6 , #key7 , #key8 ,#key9 ,#key0 ,#keymin ,#keyplus , #keya ,#keyb ,#keyc, #keyd ,#keye, #keyf , #keyh , #keyg , #keyh , #keyi  , #keyj , #keyk , #keyl, #keym, #keyn, #keyo ,#keyp, #keyq, #keyr, #keys, #keyt, #keyu, #keyv, #keyw, #keyx, #keyy, #keyz{
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+
+
+#keymin{
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+
+
+
+
+#keydel {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 4;
+}
+
+
+
+#keyop {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#keypo {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+
+#keyline{
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 3;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    
+}
+
+
+#keycapslock { /*diff*/
+  
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 4; 
+}
+
+
+#keycolon {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+#keyqoute {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#keyenter { /*diff*/
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 4;
+}
+
+
+#keytidle {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#keytab { /*diff*/
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 3;
+}
+
+.keyshift { /*diff*/
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 5;
+}
+
+
+#keydot {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#keyfslash {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 2;
+}
+
+#keytidle {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+#keytab { /*diff*/
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 3;
+}
+
+#keyshift {  /*diff*/
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 5;
+}
+
+
+.keyctrl {  /*diff*/
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 3;
+}
+
+.keyalt {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+}
+
+
+
+
+
+#keyfn {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 2;
+}
+
+.keycmd {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 2;
+}
+
+#keyspace {
+    /* background-color: rgb(243, 243, 243); */
+    border: 2px solid black;
+    border-radius: 5px;
+    grid-column: span 2;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    grid-column: span 14;
+}
+
+
+
+
+
+
+
+
